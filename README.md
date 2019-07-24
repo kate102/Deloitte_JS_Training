@@ -1,5 +1,8 @@
 # Deloitte_JS_Training
 
+To run any of these ise
+`node filename`
+
 
 __Inheritance in JS__
     
