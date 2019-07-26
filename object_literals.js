@@ -1,4 +1,17 @@
-// Objects are mutable keyed collections
-// Objects include Functions, Arrays and Expressions, as well as Objects
+// Object literal provides a notation for creating new object values
+// It is {} surrounding 0 or more name/value pairs
+// Objects can nest
 
-// An object is a CONTAINER of properties where the property has a name and a value
+var anEmptyObject = {};
+
+var aPersonObject = {
+    first_name: "Kate",
+    late_name: "Morris",
+};
+
+var aNestedObject = {
+    nestedObjectPropert: 'thing',
+    internalObject: {
+        internalObjectProperty: 1,
+    },
+};
