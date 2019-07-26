@@ -1,4 +1,4 @@
-// Delete will not remove  
+// Delete will not remove properties or values up the chain or down the chain!
 
 
 if (typeof Object.create != 'function') {
