@@ -72,13 +72,14 @@ var containsOnlyUniqueChars = function (inputString,returnArray) {
 var makeSubstrings = function (inputArray) {
     console.log('In makeSubstrings with an input array of ',inputArray);
     let returnStrings = [];
-
+    let index = 0;
   
 
     // Turn it into an array
     // Remove the next letter, if it has a pair, strip the other out and recure the rest to make internal strings then make a substring
-    let nextChar = inputArray.pop();
-    if (inputArray.indexOf(nextChar))
+    let nextChar = inputArray[index];
+    let nextIndex = inputArray.indexOf(nextChar);
+    if (nextIndex > -1 )
     {
         let newArray = inputArray.strip(nextChar)
         console.log('newArray is ',newArray);
